@@ -48,6 +48,6 @@ Assure that the pom.xml file has the following dependency, otherwise you'll get 
 </pre>
 See <a href="http://mvnrepository.com/artifact/joda-time/joda-time/2.8.1" target="_blank">Joda Time » 2.8.1</a>. 
 
-## License  ##
+## License  ## 
 This sample application is distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
