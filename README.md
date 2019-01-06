@@ -13,12 +13,14 @@ For details see:
 [Build AWS EC2 Client Application](http://acloudysky.com/build-aws-ec2-client-application/).</span>
 
 ## Prerequisites
-You must have Maven installed. The dependencies are satisfied by building the Maven package. Also assure to download the [aws-client-auth](https://github.com/milexm/aws-client-auth) project and include it in this client app project. If you use Eclipse to build the application (why not?) follow the steps describe at: [Include a Project](http://acloudysky.com/cloud-application-common-tasks/#include).  
+- 📝 You must have Maven installed. The dependencies are satisfied by building the Maven package. 
+- 🚨 Also assure to download the [aws-client-auth](https://github.com/milexm/aws-client-auth) project and include it in this client app project. 
+- 📝 If you use Eclipse to build the application (why not?) follow the steps describe at: [Include a Project](http://acloudysky.com/cloud-application-common-tasks/#include). 
 
-**Note**. Make sure that the *aws-auth-client* compiled correctly.
+📝 Make sure that the *aws-auth-client* compiled correctly.
 
 ## Security Credentials ##
-You need to set up your AWS security credentials before the sample code is able to connect to AWS. You can do this by creating a file named "credentials" at ~/.aws/ (C:\Users\USER_NAME.aws\ for Windows users) and saving the following lines in the file:
+🚨 You need to set up your AWS security credentials before the sample code is able to connect to AWS. You can do this by creating a file named "credentials" in the **~/.aws/** directory on Mac (C:\Users\USER_NAME.aws\ on Windows) and saving the following lines in the file:
 
      [default]
     	aws_access_key_id = <your access key>
